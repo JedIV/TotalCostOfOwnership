@@ -1,0 +1,50 @@
+{
+  "type": "SHINY",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "EXPLICIT_ENV",
+      "envName": "cost-simulation"
+    },
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0
+      }
+    }
+  },
+  "config": {},
+  "name": "total cost",
+  "versionTag": {
+    "versionNumber": 73,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591576215844
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jygerardy"
+    },
+    "lastModifiedOn": 1591364432888
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}

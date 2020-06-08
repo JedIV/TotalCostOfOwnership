@@ -1,0 +1,30 @@
+{
+  "type": "web_app",
+  "params": {
+    "webAppSmartId": "knKAFEv",
+    "webAppType": "SHINY"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "total cost",
+  "dashboardCreationId": "N3EbtXz",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591374795656
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591374795656
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

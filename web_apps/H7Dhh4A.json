@@ -1,0 +1,50 @@
+{
+  "type": "SHINY",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "EXPLICIT_ENV",
+      "envName": "cost-simulation"
+    },
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0
+      }
+    }
+  },
+  "config": {},
+  "name": "basic shiny",
+  "versionTag": {
+    "versionNumber": 39,
+    "lastModifiedBy": {
+      "login": "jygerardy"
+    },
+    "lastModifiedOn": 1591366699611
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591213936766
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}

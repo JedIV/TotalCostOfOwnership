@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "id": "RAe8Q3N",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 7
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "loadTimeoutInSeconds": 0
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "insightId": "CLB5BJl",
+            "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "total cost of ownership\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 3,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591374815282
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1591143739138
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
